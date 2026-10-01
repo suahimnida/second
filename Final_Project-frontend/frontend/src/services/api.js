@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://backend-syfh.onrender.com";
 
 const CLIENT_ID_KEY = "phishingClientId";
 
