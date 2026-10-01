@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic>=2
+python-dotenv
+pytest
+httpx
+
+# RAG (same stack as codes/rag_app.py)
+anthropic
+faiss-cpu
+sentence-transformers
+pandas
